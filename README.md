@@ -1,12 +1,39 @@
-# React + Vite
+Weather App 🌦️
+A simple weather application built with React.js and Material-UI that allows users to check the current weather conditions of any city.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+🌍 Search weather by city name
+🌡️ Displays temperature, humidity, and weather conditions
+🎨 Responsive UI with Material-UI
+🔄 Real-time data fetching using OpenWeather API
 
-Currently, two official plugins are available:
+🛠️ Tech Stack
+Frontend: React.js, Material-UI, CSS
+API: OpenWeather API
+Build Tool: Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔧 Installation & Setup
+1️⃣ Clone the Repository
+git clone https://github.com/deva0745/Weather-App.git
+cd Weather-App
 
-## Expanding the ESLint configuration
+2️⃣ Install Dependencies
+npm install
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3️⃣ Start the Development Server
+npm run dev
+
+4️⃣ Open in Browser
+Visit http://localhost:5173/
+
+🔑 API Key Setup
+Go to OpenWeather API and sign up.
+Get your API Key.
+Create a .env file in the root directory and add:
+VITE_WEATHER_API_KEY=your_api_key_here
+Restart the app (npm run dev).
+
+💡 Author
+👤 Rajan Kumar
+🔗 GitHub: deva0745
+
