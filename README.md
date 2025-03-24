@@ -1,4 +1,4 @@
-Weather App 🌦️
+# Weather App 🌦️
 A simple weather application built with React.js and Material-UI that allows users to check the current weather conditions of any city.
 
 🚀 Features
