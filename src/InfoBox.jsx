@@ -24,11 +24,11 @@ export default function InfoBox({ info }) {
                         {info.humidity > 80 ? <ThunderstormIcon /> : info.temp > 273 ? <WbSunnyIcon /> : <AcUnitIcon />}
                     </Typography>
                     <Typography variant="body2" component="span" color='text.secondary' >
-                        <div>Temperature = {info.temp}C</div>
-                        <div>Minimum Temperature = {info.tempMin}C</div>
-                        <div>Maximum Temperature = {info.tempMax}C</div>
+                        <div>Temperature = {info.temp - 273}C</div>
+                        <div>Minimum Temperature = {info.tempMin - 273}C</div>
+                        <div>Maximum Temperature = {info.tempMax - 273}C</div>
                         <div>Humidity = {info.humidity}</div>
-                        <div>The Weather Feels Like = {info.feelslike}C</div>
+                        <div>The Weather Feels Like = {info.feelslike - 273}C</div>
                         <div>Weather = {info.weather}</div>
                     </Typography>
                 </CardContent>
