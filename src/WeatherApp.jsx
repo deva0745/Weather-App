@@ -8,7 +8,7 @@ export default function WeatherApp() {
         tempMin: 287.25,
         tempMax: 293.35,
         humidity: 15,
-        feelslike: 26.05,
+        feelslike: 296.05,
         weather: "clear sky",
     });
 
